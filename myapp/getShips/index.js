@@ -1,10 +1,13 @@
+const fs = require('fs');
 
-// In src/v1/routes/index.js
+
 const express = require('express');
 const router = express.Router();
 
-router.route('/').get((req, res) => {
-    res.send(`<h2>Hello from ${req.baseUrl}</h2>`);
+
+
+router.route('/ships.json').get((req, res) => {
+    res.send(`${req.baseUrl}`);
 });
 
 module.exports = router;
