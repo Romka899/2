@@ -11,7 +11,7 @@ app.get('/', (req, res, next) =>{
 })
 */
 
-app.use('/', v1Router);
+app.use('/api/getShips', v1Router);
 
 /*
 app.get('/v1Router', (req, res)=>{
