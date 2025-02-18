@@ -1,5 +1,4 @@
 import express from 'express';
-import ships from '../../ships.json';
 import * as fs from "fs";
 
 const app2 = express();
