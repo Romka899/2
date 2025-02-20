@@ -1,5 +1,13 @@
 {
   "devDependencies": {
     "web-vitals": "^4.2.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "node-cache": "^5.1.2",
+    "nosql": "^6.1.0"
   }
 }
